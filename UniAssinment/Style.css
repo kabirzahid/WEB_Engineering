@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+.allbody{
+    width: 100%;
+    margin: 10% 5% 0 5% ;
+    height: 750px;
+    background-color: rgb(182, 191, 233);
+}
+.rightside{
+    margin-top: 5%;
+    float: left;
+    margin-left:5% ;
+    height: 650px;
+    display: inline;
+    width: 45%;
+    background-color: rgb(252, 249, 249);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.rightside select{
+    margin: 3% 0 3% 0;
+
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.rightside h3{
+    color: rgb(128, 42, 209) ;
+    margin: 7%;
+}
+.rightside span{
+    margin-left:10% ;
+    margin-right:20% ;
+    
+}
+.rightside span select{
+    display: inline;
+    width: 30%;
+}
+.rightside span input{
+    display: inline;
+}
+.rightside span select{
+    display: inline;
+}
+.rightside span hr{
+    width: 30%;
+}
+.rightside span input:nth-child(2){
+    margin-left: 2.8rem;
+}
+.rightside span input{
+    margin: 5% 0 5% 0;
+    font-size: 20px;
+    width: 35%;
+    background: transparent;
+    display: inline;
+    border: none;
+    border-bottom: 1px solid gray ;
+    
+}
+.rightside input{
+    margin: 5% 0 5% 0;
+    font-size: 20px;
+    width: 90%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray ;
+
+}
+.rightside hr{
+    opacity: 30%;
+    margin-left:10% ;
+    margin-right:10% ;
+}
+.leftside{
+    margin-top: 5%;
+
+    float: right;
+    margin-right:5% ;
+    height: 650px;
+    display: inline;
+    width: 45%;
+    background-color: rgba(147, 15, 255, 0.938);
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 2px 2px 2px 2px gray;
+
+
+}
+.leftside input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
+    font-weight: bold;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 3% 5% 3% 5%;
+    border-radius: 20px;
+}
