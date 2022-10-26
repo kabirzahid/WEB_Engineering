@@ -109,3 +109,7 @@ button{
     padding: 3% 5% 3% 5%;
     border-radius: 20px;
 }
+.leftside h3{
+    color: rgb(251, 249, 252) ;
+    margin: 7%;
+}

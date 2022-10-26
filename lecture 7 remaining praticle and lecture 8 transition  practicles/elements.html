@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h1::before{
+            content:"";
+            border:1px solid red;
+            width:100px;
+            position: absolute;
+            top:40px;
+            left:260px;
+            
+        }
+        p::selection{
+            background-color: yellow;
+        }
+        p::first-letter{
+            font-size: 30px;
+        }
+        p::first-line{
+            background-color: aqua;
+        }
+        img{
+            opacity: 0.3;
+        }
+        /* body{
+            background-image:linear-gradient(to right,red,green,yellow);
+        } */
+        body{
+            background-image: radial-gradient(circle,red,green,black);
+        }
+    </style>
+</head>
+<body>
+    <h1>Ahmad Shah Baba</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab dolore officiis qui ratione harum? Repellat, unde dignissimos facilis qui ut doloribus amet omnis natus illum quidem
+         cupiditate ratione atque molestiae.
+        
+    </p>
+    <!-- <img src="pic4.jpg" alt=""> -->
+</body>
+</html>
